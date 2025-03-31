@@ -14,5 +14,4 @@ sudo systemctl start ssh```
 ```ssh-copy-id user@target-node-ip
 ```
 # To run the playbook
-```ansible-playbook -i hosts.ini k8s-from-scratch.yml --ask-become-pass
-```
+```ansible-playbook -i hosts.ini k8s-from-scratch.yml --ask-become-pass```
