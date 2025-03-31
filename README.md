@@ -8,8 +8,7 @@ Kubernetes from scratch using:  containerd_version: "2.0.0" , runc_version: "1.2
 sudo systemctl start ssh
 ```
 # Generate SSH Key Pair 
-```ssh-keygen -t rsa -b 2048
-```
+```ssh-keygen -t rsa -b 2048```
 # Copy SSH Public Key to Target Node
 ```ssh-copy-id user@target-node-ip
 ```
