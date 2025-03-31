@@ -5,8 +5,8 @@ Kubernetes from scratch using:  containerd_version: "2.0.0" , runc_version: "1.2
 
 # Start the SSH service
 ```sudo systemctl enable ssh
-sudo systemctl start ssh
-```
+sudo systemctl start ssh```
+
 # Generate SSH Key Pair 
 ```ssh-keygen -t rsa -b 2048
 ```
