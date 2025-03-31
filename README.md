@@ -8,10 +8,11 @@ Kubernetes from scratch using:  containerd_version: "2.0.0" , runc_version: "1.2
 sudo systemctl start ssh
 ```
 # Generate SSH Key Pair 
-ssh-keygen -t rsa -b 2048
-
+```ssh-keygen -t rsa -b 2048
+```
 # Copy SSH Public Key to Target Node
-ssh-copy-id user@target-node-ip
-
+```ssh-copy-id user@target-node-ip
+```
 # To run the playbook
-ansible-playbook -i hosts.ini k8s-from-scratch.yml --ask-become-pass
+```ansible-playbook -i hosts.ini k8s-from-scratch.yml --ask-become-pass
+```
